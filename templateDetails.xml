@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension
+	version="2.5"
+	type="template"
+	client="site">
+	<name>default new</name>
+	<creationDate>September 2012</creationDate>
+	<author>ITB</author>
+	<authorEmail></authorEmail>
+	<authorUrl></authorUrl>
+	<copyright></copyright>
+	<license></license>
+	<version>1.0</version>
+	<description>TPL_DEFAULT_XML_DESCRIPTION</description>
+	<files>
+		<folder>html</folder>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>language</folder>
+		<folder>js</folder>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		
+		<filename>templateDetails.xml</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+	</files>
+
+	<positions>
+		<position>header</position>
+		<position>breadcrumb</position>
+		<position>slider</position>
+		<position>topMenu</position>
+		<position>left</position>
+        <position>uslugi</position>
+        <position>uslugi_new</position>
+        <position>right_block</position>
+		<position>leftMenu</position>
+		<position>footer</position>
+        <position>before</position>
+        <position>after</position>
+	</positions>
+
+	<!-- 	For core templates, we also install/uninstall the language files in the core language folders.
+	-->
+	<languages folder="language">
+		<language tag="ru-RU">ru-RU/ru-RU.tpl_default.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.tpl_default.sys.ini</language>
+	</languages>
+
+</extension>
